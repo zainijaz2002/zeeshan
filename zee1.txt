@@ -1,0 +1,17 @@
+def meter(height):
+    m = height*.305
+    print("height in meters: ", m)
+
+def inches(height):
+    i = height*12
+    print("height in inches: ", i)
+
+user_name = input('What is your name? ')
+user_height_feet = float(input('Enter your height(f): ')
+convert = input("Enter m for meters & i for inches")
+    if convert.lower() == 'm':
+        meter(height)
+    elif convert.lower == "i":
+        inches(height)
+    else:
+        print('correct value: ')
